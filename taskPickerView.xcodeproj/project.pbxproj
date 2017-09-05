@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143981E01F5EB4E900581388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143981DF1F5EB4E900581388 /* AppDelegate.swift */; };
+		143981E21F5EB4E900581388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143981E11F5EB4E900581388 /* ViewController.swift */; };
+		143981E51F5EB4EA00581388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143981E31F5EB4EA00581388 /* Main.storyboard */; };
+		143981E71F5EB4EA00581388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143981E61F5EB4EA00581388 /* Assets.xcassets */; };
+		143981EA1F5EB4EA00581388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143981E81F5EB4EA00581388 /* LaunchScreen.storyboard */; };
+		143981F51F5EB4EB00581388 /* taskPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143981F41F5EB4EB00581388 /* taskPickerViewTests.swift */; };
+		143982001F5EB4EB00581388 /* taskPickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143981FF1F5EB4EB00581388 /* taskPickerViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143981F11F5EB4EB00581388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143981D41F5EB4E800581388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143981DB1F5EB4E900581388;
+			remoteInfo = taskPickerView;
+		};
+		143981FC1F5EB4EB00581388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143981D41F5EB4E800581388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143981DB1F5EB4E900581388;
+			remoteInfo = taskPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143981DC1F5EB4E900581388 /* taskPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143981DF1F5EB4E900581388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		143981E11F5EB4E900581388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		143981E41F5EB4EA00581388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143981E61F5EB4EA00581388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		143981E91F5EB4EA00581388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		143981EB1F5EB4EA00581388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143981F01F5EB4EB00581388 /* taskPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143981F41F5EB4EB00581388 /* taskPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskPickerViewTests.swift; sourceTree = "<group>"; };
+		143981F61F5EB4EB00581388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143981FB1F5EB4EB00581388 /* taskPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143981FF1F5EB4EB00581388 /* taskPickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskPickerViewUITests.swift; sourceTree = "<group>"; };
+		143982011F5EB4EB00581388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143981D91F5EB4E900581388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143981ED1F5EB4EA00581388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143981F81F5EB4EB00581388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143981D31F5EB4E800581388 = {
+			isa = PBXGroup;
+			children = (
+				143981DE1F5EB4E900581388 /* taskPickerView */,
+				143981F31F5EB4EB00581388 /* taskPickerViewTests */,
+				143981FE1F5EB4EB00581388 /* taskPickerViewUITests */,
+				143981DD1F5EB4E900581388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		143981DD1F5EB4E900581388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143981DC1F5EB4E900581388 /* taskPickerView.app */,
+				143981F01F5EB4EB00581388 /* taskPickerViewTests.xctest */,
+				143981FB1F5EB4EB00581388 /* taskPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143981DE1F5EB4E900581388 /* taskPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				143981DF1F5EB4E900581388 /* AppDelegate.swift */,
+				143981E11F5EB4E900581388 /* ViewController.swift */,
+				143981E31F5EB4EA00581388 /* Main.storyboard */,
+				143981E61F5EB4EA00581388 /* Assets.xcassets */,
+				143981E81F5EB4EA00581388 /* LaunchScreen.storyboard */,
+				143981EB1F5EB4EA00581388 /* Info.plist */,
+			);
+			path = taskPickerView;
+			sourceTree = "<group>";
+		};
+		143981F31F5EB4EB00581388 /* taskPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				143981F41F5EB4EB00581388 /* taskPickerViewTests.swift */,
+				143981F61F5EB4EB00581388 /* Info.plist */,
+			);
+			path = taskPickerViewTests;
+			sourceTree = "<group>";
+		};
+		143981FE1F5EB4EB00581388 /* taskPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				143981FF1F5EB4EB00581388 /* taskPickerViewUITests.swift */,
+				143982011F5EB4EB00581388 /* Info.plist */,
+			);
+			path = taskPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		143981DB1F5EB4E900581388 /* taskPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143982041F5EB4EB00581388 /* Build configuration list for PBXNativeTarget "taskPickerView" */;
+			buildPhases = (
+				143981D81F5EB4E900581388 /* Sources */,
+				143981D91F5EB4E900581388 /* Frameworks */,
+				143981DA1F5EB4E900581388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taskPickerView;
+			productName = taskPickerView;
+			productReference = 143981DC1F5EB4E900581388 /* taskPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		143981EF1F5EB4EA00581388 /* taskPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143982071F5EB4EB00581388 /* Build configuration list for PBXNativeTarget "taskPickerViewTests" */;
+			buildPhases = (
+				143981EC1F5EB4EA00581388 /* Sources */,
+				143981ED1F5EB4EA00581388 /* Frameworks */,
+				143981EE1F5EB4EA00581388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143981F21F5EB4EB00581388 /* PBXTargetDependency */,
+			);
+			name = taskPickerViewTests;
+			productName = taskPickerViewTests;
+			productReference = 143981F01F5EB4EB00581388 /* taskPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		143981FA1F5EB4EB00581388 /* taskPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1439820A1F5EB4EB00581388 /* Build configuration list for PBXNativeTarget "taskPickerViewUITests" */;
+			buildPhases = (
+				143981F71F5EB4EB00581388 /* Sources */,
+				143981F81F5EB4EB00581388 /* Frameworks */,
+				143981F91F5EB4EB00581388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143981FD1F5EB4EB00581388 /* PBXTargetDependency */,
+			);
+			name = taskPickerViewUITests;
+			productName = taskPickerViewUITests;
+			productReference = 143981FB1F5EB4EB00581388 /* taskPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143981D41F5EB4E800581388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "erica chloe";
+				TargetAttributes = {
+					143981DB1F5EB4E900581388 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					143981EF1F5EB4EA00581388 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 143981DB1F5EB4E900581388;
+					};
+					143981FA1F5EB4EB00581388 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 143981DB1F5EB4E900581388;
+					};
+				};
+			};
+			buildConfigurationList = 143981D71F5EB4E800581388 /* Build configuration list for PBXProject "taskPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143981D31F5EB4E800581388;
+			productRefGroup = 143981DD1F5EB4E900581388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143981DB1F5EB4E900581388 /* taskPickerView */,
+				143981EF1F5EB4EA00581388 /* taskPickerViewTests */,
+				143981FA1F5EB4EB00581388 /* taskPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143981DA1F5EB4E900581388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143981EA1F5EB4EA00581388 /* LaunchScreen.storyboard in Resources */,
+				143981E71F5EB4EA00581388 /* Assets.xcassets in Resources */,
+				143981E51F5EB4EA00581388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143981EE1F5EB4EA00581388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143981F91F5EB4EB00581388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143981D81F5EB4E900581388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143981E21F5EB4E900581388 /* ViewController.swift in Sources */,
+				143981E01F5EB4E900581388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143981EC1F5EB4EA00581388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143981F51F5EB4EB00581388 /* taskPickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143981F71F5EB4EB00581388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143982001F5EB4EB00581388 /* taskPickerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143981F21F5EB4EB00581388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143981DB1F5EB4E900581388 /* taskPickerView */;
+			targetProxy = 143981F11F5EB4EB00581388 /* PBXContainerItemProxy */;
+		};
+		143981FD1F5EB4EB00581388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143981DB1F5EB4E900581388 /* taskPickerView */;
+			targetProxy = 143981FC1F5EB4EB00581388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		143981E31F5EB4EA00581388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143981E41F5EB4EA00581388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		143981E81F5EB4EA00581388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143981E91F5EB4EA00581388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143982021F5EB4EB00581388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		143982031F5EB4EB00581388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143982051F5EB4EB00581388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taskPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erica.chloe5-gmail.com.taskPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		143982061F5EB4EB00581388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taskPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erica.chloe5-gmail.com.taskPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		143982081F5EB4EB00581388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = taskPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erica.chloe5-gmail.com.taskPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taskPickerView.app/taskPickerView";
+			};
+			name = Debug;
+		};
+		143982091F5EB4EB00581388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = taskPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erica.chloe5-gmail.com.taskPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taskPickerView.app/taskPickerView";
+			};
+			name = Release;
+		};
+		1439820B1F5EB4EB00581388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = taskPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erica.chloe5-gmail.com.taskPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = taskPickerView;
+			};
+			name = Debug;
+		};
+		1439820C1F5EB4EB00581388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = taskPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "erica.chloe5-gmail.com.taskPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = taskPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143981D71F5EB4E800581388 /* Build configuration list for PBXProject "taskPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143982021F5EB4EB00581388 /* Debug */,
+				143982031F5EB4EB00581388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143982041F5EB4EB00581388 /* Build configuration list for PBXNativeTarget "taskPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143982051F5EB4EB00581388 /* Debug */,
+				143982061F5EB4EB00581388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		143982071F5EB4EB00581388 /* Build configuration list for PBXNativeTarget "taskPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143982081F5EB4EB00581388 /* Debug */,
+				143982091F5EB4EB00581388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1439820A1F5EB4EB00581388 /* Build configuration list for PBXNativeTarget "taskPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1439820B1F5EB4EB00581388 /* Debug */,
+				1439820C1F5EB4EB00581388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143981D41F5EB4E800581388 /* Project object */;
+}
